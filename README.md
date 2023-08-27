@@ -117,6 +117,7 @@ If you are using Raspberry Pi OS you should be able to use the following command
     $ cp lineawesome-webfont.ttf ~/lineawesome-webfont.ttf
     $ cp Stats-SH1106.py ~/stats.py   
     $ cp Monitor-SH1106.py ~/monitor.py
+    $ cp Alt-SH1106.py ~/alt.py
 
 ```
 
@@ -127,7 +128,7 @@ If you are using Raspberry Pi OS you should be able to use the following command
 ```
 
 **Add this at the bottom:**
-
+Choose which script you want to run continously & then enter the relevant line for that script.
 Remember to change your username (pi below) if you're not using the default username
 
 ```
@@ -135,7 +136,7 @@ Remember to change your username (pi below) if you're not using the default user
 
     OR
     
-    @reboot python3 /home/pi/psutilstats.py &
+    @reboot python3 /home/pi/alt.py &
     
     OR
 
