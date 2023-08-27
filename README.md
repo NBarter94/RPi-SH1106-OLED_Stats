@@ -10,9 +10,10 @@ This script is pre-configured for the SH1106 128x64 I2C OLED Display ONLY, but c
 
 When you're following mklements OLED_Stats steps, unfortunately if your display shows jumbled pixels/symbols instead of actual text - you more than likely have a display which supports the SH1106 driver instead of the more common SSD1306 driver. It's an easy mistake to make as many SH1106 boards are advertised/labelled as the common SSD1306.
 
-mklements script ONLY works for SSD1306 displays BUT this script will help you with this issue. 
+mklements script ONLY works for SSD1306 displays BUT this script will help you with issues using his script with SH1106 displays. 
 
-A similar process can be following on the following guide to get the display working: https://www.youtube.com/watch?v=LdOKXUDw2NY
+A similar process can be followed to get the SH1106 displays setup BUT you'll need to alter mklements original script to get it working or just use my scripts instead. Video: https://www.youtube.com/watch?v=LdOKXUDw2NY
+
 
 ## Screenshots:
 
