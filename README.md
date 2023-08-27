@@ -34,6 +34,13 @@ A similar process can be followed to get the SH1106 displays setup BUT you'll ne
 
 <img src="https://www.the-diy-life.com/wp-content/uploads/2021/11/Screenshot-2021-11-14-at-22.16.39-1024x576.jpg">
 
+```shell
+    $ VDD/VCC (Power) = PIN1 or any other 3V3 power
+    $ GND (Ground) = PIN9 or any other ground
+    $ SCK/SCL (Serial Clock) = PIN5
+    $ SDA (Serial Data) = PIN3
+```
+
 2. Upgrade your Raspberry Pi firmware and reboot:
 
 ```shell
