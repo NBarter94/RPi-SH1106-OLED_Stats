@@ -1,10 +1,10 @@
 # OLED Stats
 
-SU1106 OLED Stats Display Script for Raspberry Pi
+SH1106 OLED Stats Display Script for Raspberry Pi
 
-Based off of mklements OLED_Stats, this is a display script for SH1106 boards unlike the original which is for SSD1306 displays.
+Based off of mklements OLED_Stats, this is a display script for SH1106 boards unlike the mklements original which is for SSD1306 displays.
 
-The script is pre-configured for the SH1106 128x64 I2C OLED Display ONLY, but can easily be modified to run on a 128x32 I2C OLED Display.
+This script is pre-configured for the SH1106 128x64 I2C OLED Display ONLY, but can easily be modified to run on a 128x32 I2C OLED Display.
 
 ## Display Issues using mklements OLED_Stats:
 
@@ -142,8 +142,8 @@ Remember to change your username (pi below) if you're not using the default user
 ```
 
 ## Display Issues:
-
-If your display shows jumbled pixels/symbols instead of actual text - you may have a display which supports the SSD1306 driver instead of less common SH1106 driver. This script ONLY works for SH1106 displays.
-If you have this issue, follow mkelements guide that this is based off https://github.com/mklements/OLED_Stats
+<img src="https://www.the-diy-life.com/wp-content/uploads/2021/11/Screenshot-2021-11-14-at-22.16.39-1024x576.jpg">
+If your display shows jumbled pixels/symbols as shown above instead of actual text - you may have a display which supports the SSD1306 driver instead of less common SH1106 driver. This script ONLY works for SH1106 displays.
+If you have this issue, follow mkelements guide which this script is based off https://github.com/mklements/OLED_Stats
 
 <h3><p align="center">THE  END</p></h3>
