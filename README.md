@@ -56,7 +56,7 @@ A similar process can be followed to get the SH1106 displays setup BUT you'll ne
     $ sudo pip3 install --upgrade setuptools
 ```
 
-4. Next, we’re going to retrieve all of the dependencies luma.oled requires and install them automatically using the following command:
+4. Next, we’re going to retrieve all of the dependencies luma.oled & Adafruit CircuitPython library requires and install them automatically using the following command:
 
 ```shell
     $ sudo -H pip3 install --upgrade luma.oled
