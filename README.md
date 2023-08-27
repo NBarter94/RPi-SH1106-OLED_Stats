@@ -60,6 +60,12 @@ A similar process can be followed to get the SH1106 displays setup BUT you'll ne
 
 ```shell
     $ sudo -H pip3 install --upgrade luma.oled
+    $ cd ~
+    $ sudo pip3 install --upgrade adafruit-python-shell
+    $ sudo reboot
+
+    $ wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
+    $ sudo python3 raspi-blinka.py
 ```
 
 NOTE: If pip is unable to automatically install its dependencies you will have to add them manually. To resolve the issues you will need to add the appropriate development packages to continue.
