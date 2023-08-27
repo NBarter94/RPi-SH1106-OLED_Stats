@@ -163,5 +163,5 @@ If you have this issue, follow mkelements guide which this script is based off h
 <h3><p align="center">THE  END</p></h3>
 
 ## Useful Links:
-https://luma-oled.readthedocs.io/en/latest/intro.html
+https://luma-oled.readthedocs.io/en/latest/intro.html - Luma.OLED
 https://github.com/mklements/OLED_Stats - Original Scrip source
